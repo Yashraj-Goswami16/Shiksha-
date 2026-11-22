@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Create a new examination | Shiksha
+  </title>
+  <link href="../css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="app">
+   <aside class="sidebar">
+    <a class="brand" href="admin-dashboard.html">
+     shiksha
+     <span>
+      .
+     </span>
+    </a>
+    <div class="nav-label">
+     Administration
+    </div>
+    <nav class="nav">
+     <a class="" href="admin-dashboard.html">
+      Dashboard
+     </a>
+     <a class="" href="manage-exams.html">
+      Manage Exams
+     </a>
+     <a class="active" href="create-quiz.html">
+      Create Quiz
+     </a>
+     <a class="" href="ai-generator.html">
+      AI Generator
+     </a>
+     <a class="" href="admin-users.html">
+      Users
+     </a>
+     <a class="" href="analytics.html">
+      Analytics
+     </a>
+     <a class="" href="settings.html">
+      Settings
+     </a>
+     <a class="" href="help.html">
+      Help
+     </a>
+    </nav>
+    <div class="side-bottom">
+     Shiksha Online Examination
+     <br/>
+     Learning and assessment portal
+    </div>
+   </aside>
+   <div class="main">
+    <header class="topbar">
+     <div class="crumb">
+      Administration / Create Quiz
+     </div>
+     <div class="user">
+      <div class="avatar">
+       A
+      </div>
+      <div>
+       <strong>
+        Administrator
+       </strong>
+       <small>
+        Platform management
+       </small>
+      </div>
+     </div>
+    </header>
+    <main class="content">
+     <div class="page-head">
+      <div>
+       <div class="eyebrow">
+        Shiksha / Create Quiz
+       </div>
+       <h1>
+        Create a new examination
+       </h1>
+       <p class="sub">
+        Enter assessment details and add the first question to your quiz.
+       </p>
+      </div>
+     </div>
+     <form class="panel" style="max-width:950px">
+      <div class="eyebrow">
+       Step 1 &middot; Assessment details
+      </div>
+      <div class="form-grid">
+       <div class="field">
+        <label>
+         Examination title
+        </label>
+        <input placeholder="Example: Java Programming Basics"/>
+       </div>
+       <div class="field">
+        <label>
+         Subject
+        </label>
+        <input placeholder="Enter subject"/>
+       </div>
+       <div class="field">
+        <label>
+         Duration (minutes)
+        </label>
+        <input placeholder="45" type="number"/>
+       </div>
+       <div class="field">
+        <label>
+         Difficulty
+        </label>
+        <select>
+         <option>
+          Select difficulty
+         </option>
+         <option>
+          Easy
+         </option>
+         <option>
+          Medium
+         </option>
+         <option>
+          Hard
+         </option>
+        </select>
+       </div>
+       <div class="field">
+        <label>
+         Total questions
+        </label>
+        <input placeholder="30" type="number"/>
+       </div>
+       <div class="field">
+        <label>
+         Maximum marks
+        </label>
+        <input placeholder="30" type="number"/>
+       </div>
+      </div>
+      <hr style="border:0;border-top:1px solid #e2e8f0;margin:10px 0 22px"/>
+      <div class="eyebrow">
+       Step 2 &middot; Add question
+      </div>
+      <div class="field">
+       <label>
+        Question
+       </label>
+       <textarea placeholder="Enter your question"></textarea>
+      </div>
+      <div class="form-grid">
+       <div class="field">
+        <label>
+         Option A
+        </label>
+        <input placeholder="Enter option A"/>
+       </div>
+       <div class="field">
+        <label>
+         Option B
+        </label>
+        <input placeholder="Enter option B"/>
+       </div>
+       <div class="field">
+        <label>
+         Option C
+        </label>
+        <input placeholder="Enter option C"/>
+       </div>
+       <div class="field">
+        <label>
+         Option D
+        </label>
+        <input placeholder="Enter option D"/>
+       </div>
+      </div>
+      <div class="field">
+       <label>
+        Correct answer
+       </label>
+       <select>
+        <option>
+         Select correct option
+        </option>
+        <option>
+         Option A
+        </option>
+        <option>
+         Option B
+        </option>
+        <option>
+         Option C
+        </option>
+        <option>
+         Option D
+        </option>
+       </select>
+      </div>
+      <button class="btn" type="button">
+       Save question
+      </button>
+      <button class="btn light" type="button">
+       Save as draft
+      </button>
+      <p class="muted" style="font-size:11px">
+       Static frontend form. Saving and question storage require backend functionality.
+      </p>
+     </form>
+    </main>
+    <footer class="footer">
+     &copy; 2026 Shiksha Online Examination System
+    </footer>
+   </div>
+  </div>
+ </body>
+</html>

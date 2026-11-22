@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   AI quiz generator | Shiksha
+  </title>
+  <link href="../css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="app">
+   <aside class="sidebar">
+    <a class="brand" href="admin-dashboard.html">
+     shiksha
+     <span>
+      .
+     </span>
+    </a>
+    <div class="nav-label">
+     Administration
+    </div>
+    <nav class="nav">
+     <a class="" href="admin-dashboard.html">
+      Dashboard
+     </a>
+     <a class="" href="manage-exams.html">
+      Manage Exams
+     </a>
+     <a class="" href="create-quiz.html">
+      Create Quiz
+     </a>
+     <a class="active" href="ai-generator.html">
+      AI Generator
+     </a>
+     <a class="" href="admin-users.html">
+      Users
+     </a>
+     <a class="" href="analytics.html">
+      Analytics
+     </a>
+     <a class="" href="settings.html">
+      Settings
+     </a>
+     <a class="" href="help.html">
+      Help
+     </a>
+    </nav>
+    <div class="side-bottom">
+     Shiksha Online Examination
+     <br/>
+     Learning and assessment portal
+    </div>
+   </aside>
+   <div class="main">
+    <header class="topbar">
+     <div class="crumb">
+      Administration / AI Generator
+     </div>
+     <div class="user">
+      <div class="avatar">
+       A
+      </div>
+      <div>
+       <strong>
+        Administrator
+       </strong>
+       <small>
+        Platform management
+       </small>
+      </div>
+     </div>
+    </header>
+    <main class="content">
+     <div class="page-head">
+      <div>
+       <div class="eyebrow">
+        Shiksha / AI Generator
+       </div>
+       <h1>
+        AI quiz generator
+       </h1>
+       <p class="sub">
+        Prepare a quiz draft from a topic or syllabus document.
+       </p>
+      </div>
+     </div>
+     <div class="notice">
+      Enter the learning topic and choose the quiz settings. AI generation is a planned interface feature and is not connected in this HTML/CSS version.
+     </div>
+     <form class="panel" style="max-width:900px">
+      <div class="field">
+       <label>
+        Topic or syllabus content
+       </label>
+       <textarea placeholder="Example: Java OOP, classes, inheritance, polymorphism and exception handling" rows="7"></textarea>
+      </div>
+      <div class="form-grid">
+       <div class="field">
+        <label>
+         Number of questions
+        </label>
+        <input type="number" value="20"/>
+       </div>
+       <div class="field">
+        <label>
+         Difficulty level
+        </label>
+        <select>
+         <option>
+          Mixed
+         </option>
+         <option>
+          Easy
+         </option>
+         <option>
+          Medium
+         </option>
+         <option>
+          Hard
+         </option>
+        </select>
+       </div>
+       <div class="field">
+        <label>
+         Question type
+        </label>
+        <select>
+         <option>
+          Multiple choice
+         </option>
+         <option>
+          True or false
+         </option>
+        </select>
+       </div>
+       <div class="field">
+        <label>
+         Duration (minutes)
+        </label>
+        <input type="number" value="30"/>
+       </div>
+      </div>
+      <button class="btn" type="button">
+       Generate quiz draft
+      </button>
+     </form>
+    </main>
+    <footer class="footer">
+     &copy; 2026 Shiksha Online Examination System
+    </footer>
+   </div>
+  </div>
+ </body>
+</html>
